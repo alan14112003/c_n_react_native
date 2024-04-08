@@ -5,6 +5,8 @@ import 'react-native-gesture-handler';
 import IntroScreen from '@/screens/Intro';
 import { useLogging } from '@/hooks/useLogging';
 import SignUpScreen from '@/screens/SignUp';
+// Import your global CSS file
+import './global.css';
 
 const Stack = createStackNavigator();
 
